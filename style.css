@@ -14,15 +14,20 @@ button {
   color: white;
   font-size: 1.4rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #000;
 }
 input {
-  padding: 0.3rem 1rem;
+  padding: 0.4rem 1rem;
   background-color: beige;
   font-size: 1.4rem;
   border-radius: 5px;
 }
 .form-wrapper {
+  width: 400px;
   display: flex;
-  align-items: center;
-  gap: 5px;
+  flex-direction: column;
+  gap: 10px;
 }
